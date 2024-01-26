@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Bash script that displays a list of all currently running processes.
+
+# Use ps to list all processes in a tree-like format, then grep for "bash"
+ps aux f | grep "bash"
